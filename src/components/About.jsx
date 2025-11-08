@@ -49,13 +49,13 @@ const About = () => {
               I'm a <span className="text-accent font-semibold">2024 BITS Pilani</span> graduate driven by curiosity and a strong interest in building user-focused products.
             </p>
             <p>
-              As an <span className="text-accent font-semibold">Analyst Intern at Deutsche Bank</span>, I worked on large-scale data systems using <span className="text-accent font-semibold">SQL, Excel, and automation tools</span> to improve accuracy, reporting speed, and process efficiency — an experience that strengthened my data-driven and problem-solving mindset.
+              At <span className="text-accent font-semibold">Deutsche Bank</span>, I worked with the <span className="text-accent font-semibold">Liquidity Data Management team</span>, where I used <span className="text-accent font-semibold">SQL, Excel, and automation tools</span> to improve data accuracy, reporting speed, and decision-making efficiency — an experience that deepened my appreciation for data-driven product thinking.
             </p>
             <p>
               I enjoy combining analytical thinking with a product-focused approach — understanding users, identifying key problems, and building impactful solutions. I'm currently exploring <span className="text-accent font-semibold">product management, product analyst, business analyst</span>, and other related roles where I can learn, grow, and contribute to building meaningful products.
             </p>
             <p>
-              Outside work, I'm a passionate photographer and previously led the <span className="text-accent font-semibold">Photography Department at BITS</span>, an experience that shaped my eye for detail, storytelling, and collaboration.
+              Outside work, I'm a passionate photographer and previously led the <span className="text-accent font-semibold">Photography Department at BITS</span>, an experience that shaped my eye for detail, storytelling, and teamwork.
             </p>
           </div>
         </div>
