@@ -27,7 +27,7 @@ const Projects = () => {
 
   const projects = [
     {
-      name: 'MoveInSync',
+      name: 'MoveInSync (Product Deck)',
       description: 'Suggested HRMS integration, automated confirmations, and incentive-based systems to enhance punctuality and reliability.',
       outcome: 'Increase on-time arrivals for employee commutes.',
       outcomeSuffix: '',
@@ -36,7 +36,7 @@ const Projects = () => {
       pdfPath: '/product_decks/MoveInSync product deck.pdf'
     },
     {
-      name: 'CricBuzz Enhancement',
+      name: 'CricBuzz (Product Deck)',
       description: 'Suggested new ideas and features to improve match experience and user engagement.',
       outcome: 'Engagement Boost',
       outcomeSuffix: ' via retention features',
@@ -45,7 +45,7 @@ const Projects = () => {
       pdfPath: '/product_decks/CricBuzz Product deck.pdf'
     },
     {
-      name: 'SplitWise Features',
+      name: 'SplitWise (Product Deck)',
       description: 'Making expense splitting simpler and more fun.',
       outcome: 'Enhanced UX',
       outcomeSuffix: ' & user retention',
@@ -55,7 +55,7 @@ const Projects = () => {
     },
     {
       name: 'Hospitality BI Dashboard',
-      description: 'Power BI dashboard with KPIs like ADR, RevPAR, occupancy rate across 50K+ bookings',
+      description: 'Power BI dashboard with KPIs like ADR, RevPAR, occupancy rate across 50K+ bookings.',
       outcome: '8-10%',
       outcomeSuffix: ' cancellation reduction',
       tags: ['Power BI', 'Data Visualization', 'Revenue Strategy'],
@@ -63,7 +63,7 @@ const Projects = () => {
     },
     {
       name: 'Business Strategy Analysis',
-      description: 'Evaluated industry dynamics via Porter\'s Five Forces, BCG Matrix, and SPACE Analysis',
+      description: 'Evaluated industry dynamics via Porter\'s Five Forces, BCG Matrix, and SPACE Analysis.',
       outcome: 'Strategic Insights',
       outcomeSuffix: ' for market positioning',
       tags: ['Strategy', 'Market Analysis', 'BCG Matrix'],
@@ -71,7 +71,7 @@ const Projects = () => {
     },
     {
       name: 'Sports Retail Analysis',
-      description: 'Analyzed 3,000+ SKUs using SQL to classify products and identify revenue opportunities',
+      description: 'Analyzed 3,000+ SKUs using SQL to classify products and identify revenue opportunities.',
       outcome: 'Revenue Lift',
       outcomeSuffix: ' via optimization',
       tags: ['SQL', 'Data Analysis', 'Pricing Strategy'],
@@ -98,7 +98,7 @@ const Projects = () => {
     {
       name: 'Just Do It App',
       description: 'Tried building a minimal to-do app on Lovable, with AI tagging, reminders, and streaks to help users stay organized and consistent.',
-      outcome: 'Build a clean and intelligent task management experience',
+      outcome: 'Build a clean and intelligent task management experience.',
       outcomeSuffix: '',
       tags: ['Product Design', 'Task Management', 'UX', 'Lovable'],
       image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop',
