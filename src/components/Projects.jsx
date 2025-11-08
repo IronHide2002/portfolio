@@ -27,10 +27,10 @@ const Projects = () => {
 
   const projects = [
     {
-      name: 'Move-In-Sync',
+      name: 'MoveInSync',
       description: 'Strategic product initiative to increase on-time arrival rates for corporate transportation',
-      outcome: '85% to 95%',
-      outcomeSuffix: ' OTA increase',
+      outcome: 'Increasing the On Time Arrival (OTA) for a customer',
+      outcomeSuffix: '',
       tags: ['Eisenhower Matrix', 'HRMS Integration', 'IVR'],
       image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/MoveInSync product deck.pdf'
@@ -106,7 +106,7 @@ const Projects = () => {
     },
     {
       name: 'CheQ Product Challenge',
-      description: 'Product development phases for financial technology platform with phased rollout strategy',
+      description: '',
       outcome: 'Increasing Pay Together feature adoption',
       outcomeSuffix: '',
       tags: ['Product Development', 'FinTech', 'Phased Launch'],
@@ -164,13 +164,15 @@ const Projects = () => {
 
                 {/* Project Content */}
                 <div className="p-6 flex-grow flex flex-col">
-                  <h3 className="text-2xl md:text-3xl font-bold text-text-primary mb-3" style={{fontFamily: "'Playfair Display', serif"}}>
+                  <h3 className="text-2xl md:text-3xl font-bold text-text-primary mb-3">
                     {project.name}
                   </h3>
                   
-                  <p className="text-text-secondary text-base mb-4 flex-grow">
-                    {project.description}
-                  </p>
+                  {project.description && (
+                    <p className="text-text-secondary text-base mb-4 flex-grow">
+                      {project.description}
+                    </p>
+                  )}
 
                   {/* Outcome */}
                   <div className="mb-4 bg-dark-bg/50 p-3 rounded-xl border border-accent/30">

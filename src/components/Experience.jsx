@@ -109,7 +109,7 @@ const Experience = () => {
               <div className={`md:w-[calc(50%-1.5rem)] ${index % 2 === 0 ? 'md:pr-6 md:ml-auto' : 'md:pl-6'}`}>
                 <div className="bg-dark-card p-5 md:p-6 rounded-3xl border border-dark-lighter hover:border-accent transition-all duration-300 shadow-lg hover:shadow-2xl">
                   {/* Company Name */}
-                  <h3 className="text-2xl md:text-3xl font-bold text-text-primary mb-2" style={{fontFamily: "'Playfair Display', serif"}}>
+                  <h3 className="text-2xl md:text-3xl font-bold text-text-primary mb-2">
                     {exp.company}
                   </h3>
                   
