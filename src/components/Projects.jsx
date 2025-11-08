@@ -28,7 +28,7 @@ const Projects = () => {
   const projects = [
     {
       name: 'MoveInSync',
-      description: 'Strategic product initiative to increase on-time arrival rates for corporate transportation',
+      description: 'Designed scalable solutions like HRMS integration and IVR confirmations, combining tech and behavioral incentives to raise OTA from 85% to 95%.',
       outcome: 'Increasing the On Time Arrival (OTA) for a customer',
       outcomeSuffix: '',
       tags: ['Eisenhower Matrix', 'HRMS Integration', 'IVR'],
@@ -79,10 +79,10 @@ const Projects = () => {
     },
     {
       name: 'BeyondIRR APM Case Study',
-      description: 'Product management case study showcasing strategic thinking and problem-solving capabilities',
+      description: 'Designed a feature for Relationship Managers to handle broker changes easily within the platform, improving speed and transparency.',
       outcome: 'Strategic Thinking',
       outcomeSuffix: ' & problem-solving',
-      tags: ['Product Strategy', 'Case Study', 'APM'],
+      tags: ['Product Strategy', 'Case Study', 'APM', 'Perplexity Labs'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/BeyondIRR_APM_Assignment_AryamanKohli.pdf'
     },
@@ -97,16 +97,16 @@ const Projects = () => {
     },
     {
       name: 'Just Do It App',
-      description: 'Product deck for task management and productivity application with focus on user engagement',
-      outcome: 'Productivity Boost',
-      outcomeSuffix: ' & task management',
+      description: 'Tried building a minimal to-do app on Lovable, with AI tagging, reminders, and streaks to help users stay organized and consistent.',
+      outcome: 'Build a clean and intelligent task management experience',
+      outcomeSuffix: '',
       tags: ['Product Design', 'Task Management', 'UX', 'Lovable'],
       image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Just-do-it-App-Lovable.pdf'
     },
     {
       name: 'CheQ Product Challenge',
-      description: '',
+      description: 'Delivered a structured critique and redesign proposal that improved feature visibility, incentive loops, and cross-sell opportunities aligned with CheQ\'s vision.',
       outcome: 'Increasing Pay Together feature adoption',
       outcomeSuffix: '',
       tags: ['Product Development', 'FinTech', 'Phased Launch'],
