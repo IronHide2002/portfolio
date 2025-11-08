@@ -27,6 +27,24 @@ const Projects = () => {
 
   const projects = [
     {
+      name: 'CheQ Product Challenge',
+      description: 'Suggested UI, reward, and education changes that made the feature easier to find and more rewarding to use.',
+      outcome: 'To increase use of the "Pay Together" feature on CheQ.',
+      outcomeSuffix: '',
+      tags: ['Product Critique', 'Feature Prioritization', 'User Personas', 'Wireframe'],
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+      pdfPath: '/product_decks/Phase1_Phase2_CheQ_Nextleap_Ak.pdf'
+    },
+    {
+      name: 'BeyondIRR (APM Assignment)',
+      description: 'Designed a feature for Relationship Managers to handle broker changes easily within the platform, improving speed and transparency.',
+      outcome: 'Improve efficiency in handling broker change requests.',
+      outcomeSuffix: '',
+      tags: ['Product Design', 'Success Metrics', 'Perplexity Labs'],
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+      pdfPath: '/product_decks/BeyondIRR_APM_Assignment_AryamanKohli.pdf'
+    },
+    {
       name: 'MoveInSync (Product Deck)',
       description: 'Suggested HRMS integration, automated confirmations, and incentive-based systems to enhance punctuality and reliability.',
       outcome: 'Increase on-time arrivals for employee commutes.',
@@ -34,6 +52,15 @@ const Projects = () => {
       tags: ['Eisenhower Matrix'],
       image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/MoveInSync product deck.pdf'
+    },
+    {
+      name: 'Just Do It App',
+      description: 'Tried building a minimal to-do app on Lovable, with AI tagging, reminders, and streaks to help users stay organized and consistent.',
+      outcome: 'Build a clean and intelligent task management experience.',
+      outcomeSuffix: '',
+      tags: ['Product Design', 'Prototype', 'UX', 'Lovable'],
+      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop',
+      pdfPath: '/product_decks/Just-do-it-App-Lovable.pdf'
     },
     {
       name: 'CricBuzz (Product Deck)',
@@ -54,6 +81,14 @@ const Projects = () => {
       pdfPath: '/product_decks/Splitwise Product deck.pdf'
     },
     {
+      name: 'Sports Retail Analysis',
+      description: 'Analyzed 3,000+ SKUs using SQL to classify products and identify revenue opportunities.',
+      outcome: 'Discover insights',
+      outcomeSuffix: ' from sales data.',
+      tags: ['SQL', 'Data Analysis'],
+      image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop'
+    },
+    {
       name: 'Hospitality BI Dashboard',
       description: 'Built a Power BI dashboard showing key metrics like bookings, revenue, and cancellations to help plan better pricing and reduce losses.',
       outcome: 'Track and improve hotel performance',
@@ -68,41 +103,6 @@ const Projects = () => {
       outcomeSuffix: ' for market positioning.',
       tags: ['Market Analysis', 'BCG Matrix'],
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop'
-    },
-    {
-      name: 'Sports Retail Analysis',
-      description: 'Analyzed 3,000+ SKUs using SQL to classify products and identify revenue opportunities.',
-      outcome: 'Discover insights',
-      outcomeSuffix: ' from sales data.',
-      tags: ['SQL', 'Data Analysis'],
-      image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop'
-    },
-    {
-      name: 'BeyondIRR (APM Assignment)',
-      description: 'Designed a feature for Relationship Managers to handle broker changes easily within the platform, improving speed and transparency.',
-      outcome: 'Improve efficiency in handling broker change requests.',
-      outcomeSuffix: '',
-      tags: ['Product Design', 'Success Metrics', 'Perplexity Labs'],
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
-      pdfPath: '/product_decks/BeyondIRR_APM_Assignment_AryamanKohli.pdf'
-    },
-    {
-      name: 'Just Do It App',
-      description: 'Tried building a minimal to-do app on Lovable, with AI tagging, reminders, and streaks to help users stay organized and consistent.',
-      outcome: 'Build a clean and intelligent task management experience.',
-      outcomeSuffix: '',
-      tags: ['Product Design', 'Prototype', 'UX', 'Lovable'],
-      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop',
-      pdfPath: '/product_decks/Just-do-it-App-Lovable.pdf'
-    },
-    {
-      name: 'CheQ Product Challenge',
-      description: 'Suggested UI, reward, and education changes that made the feature easier to find and more rewarding to use.',
-      outcome: 'To increase use of the "Pay Together" feature on CheQ.',
-      outcomeSuffix: '',
-      tags: ['Product Critique', 'Feature Prioritization', 'User Personas', 'Wireframe'],
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
-      pdfPath: '/product_decks/Phase1_Phase2_CheQ_Nextleap_Ak.pdf'
     }
   ]
 
