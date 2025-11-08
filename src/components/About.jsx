@@ -46,13 +46,16 @@ const About = () => {
           {/* About Content */}
           <div className="space-y-8 text-text-secondary text-lg md:text-xl leading-loose max-w-4xl">
             <p>
-              I'm a 2024 graduate from <span className="text-text-primary font-semibold">BITS Pilani, Hyderabad Campus</span> with a strong passion for the intersection of business, data, and technology.
+              I'm a <span className="text-accent font-semibold">2024 BITS Pilani</span> graduate driven by curiosity and a strong interest in building user-focused products.
             </p>
             <p>
-              During my internship at <span className="text-accent font-semibold">Deutsche Bank</span>, I worked as part of the Liquidity Data Management team, gaining hands-on experience in financial data systems and risk reporting.
+              As an <span className="text-accent font-semibold">Analyst Intern at Deutsche Bank</span>, I worked on large-scale data systems using <span className="text-accent font-semibold">SQL, Excel, and automation tools</span> to improve accuracy, reporting speed, and process efficiency — an experience that strengthened my data-driven and problem-solving mindset.
             </p>
             <p>
-              Currently, I'm actively exploring opportunities in <span className="text-accent font-semibold">product management</span> and <span className="text-accent font-semibold">business analyst</span> roles where I can apply my analytical mindset, problem-solving skills, and creative thinking to build meaningful solutions.
+              I enjoy combining analytical thinking with a product-focused approach — understanding users, identifying key problems, and building impactful solutions. I'm currently exploring <span className="text-accent font-semibold">product management, product analyst, business analyst</span>, and other related roles where I can learn, grow, and contribute to building meaningful products.
+            </p>
+            <p>
+              Outside work, I'm a passionate photographer and previously led the <span className="text-accent font-semibold">Photography Department at BITS</span>, an experience that shaped my eye for detail, storytelling, and collaboration.
             </p>
           </div>
         </div>
