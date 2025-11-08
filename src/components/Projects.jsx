@@ -31,7 +31,7 @@ const Projects = () => {
       description: 'Suggested HRMS integration, automated confirmations, and incentive-based systems to enhance punctuality and reliability.',
       outcome: 'Increase on-time arrivals for employee commutes.',
       outcomeSuffix: '',
-      tags: ['Eisenhower Matrix', 'HRMS Integration', 'IVR'],
+      tags: ['Eisenhower Matrix'],
       image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/MoveInSync product deck.pdf'
     },
@@ -40,7 +40,7 @@ const Projects = () => {
       description: 'Suggested new ideas and features to improve match experience and user engagement.',
       outcome: 'Engagement Boost',
       outcomeSuffix: ' via retention features',
-      tags: ['RICE Framework', 'User Engagement', 'Product Strategy'],
+      tags: ['RICE Framework', 'User Persona', 'Metrics'],
       image: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/CricBuzz Product deck.pdf'
     },
@@ -58,7 +58,7 @@ const Projects = () => {
       description: 'Power BI dashboard with KPIs like ADR, RevPAR, occupancy rate across 50K+ bookings.',
       outcome: '8-10%',
       outcomeSuffix: ' cancellation reduction',
-      tags: ['Power BI', 'Data Visualization', 'Revenue Strategy'],
+      tags: ['Power BI', 'Data Visualization'],
       image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&h=400&fit=crop'
     },
     {
@@ -66,7 +66,7 @@ const Projects = () => {
       description: 'Evaluated industry dynamics via Porter\'s Five Forces, BCG Matrix, and SPACE Analysis.',
       outcome: 'Strategic Insights',
       outcomeSuffix: ' for market positioning',
-      tags: ['Strategy', 'Market Analysis', 'BCG Matrix'],
+      tags: ['Market Analysis', 'BCG Matrix', 'Competitive Benchmarking', 'Blindspot Analysis', 'Michael Porter 5 Forces'],
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop'
     },
     {
@@ -74,7 +74,7 @@ const Projects = () => {
       description: 'Analyzed 3,000+ SKUs using SQL to classify products and identify revenue opportunities.',
       outcome: 'Revenue Lift',
       outcomeSuffix: ' via optimization',
-      tags: ['SQL', 'Data Analysis', 'Pricing Strategy'],
+      tags: ['SQL', 'Data Analysis'],
       image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop'
     },
     {
@@ -82,25 +82,16 @@ const Projects = () => {
       description: 'Designed a feature for Relationship Managers to handle broker changes easily within the platform, improving speed and transparency.',
       outcome: 'Improve efficiency in handling broker change requests.',
       outcomeSuffix: '',
-      tags: ['Product Strategy', 'Case Study', 'APM', 'Perplexity Labs'],
+      tags: ['Product Design', 'Success Metrics', 'Perplexity Labs'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/BeyondIRR_APM_Assignment_AryamanKohli.pdf'
-    },
-    {
-      name: 'Blinkit New User Onboarding',
-      description: 'Analyzed the Blinkit app journey and suggested UX improvements to simplify the first-order process and boost conversions.',
-      outcome: 'Enhance the onboarding experience for new users.',
-      outcomeSuffix: '',
-      tags: ['UX Design', 'User Onboarding', 'Product Strategy'],
-      image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop',
-      pdfPath: '/product_decks/Blinkit New User Onboarding product deck.pdf'
     },
     {
       name: 'Just Do It App',
       description: 'Tried building a minimal to-do app on Lovable, with AI tagging, reminders, and streaks to help users stay organized and consistent.',
       outcome: 'Build a clean and intelligent task management experience.',
       outcomeSuffix: '',
-      tags: ['Product Design', 'Task Management', 'UX', 'Lovable'],
+      tags: ['Product Design', 'Prototype', 'UX', 'Lovable'],
       image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Just-do-it-App-Lovable.pdf'
     },
@@ -109,7 +100,7 @@ const Projects = () => {
       description: 'Suggested UI, reward, and education changes that made the feature easier to find and more rewarding to use.',
       outcome: 'To increase use of the "Pay Together" feature on CheQ.',
       outcomeSuffix: '',
-      tags: ['Product Development', 'FinTech', 'Phased Launch'],
+      tags: ['Product Critique', 'Feature Prioritization', 'User Personas', 'Wireframe'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Phase1_Phase2_CheQ_Nextleap_Ak.pdf'
     }
