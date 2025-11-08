@@ -28,8 +28,8 @@ const Projects = () => {
   const projects = [
     {
       name: 'MoveInSync',
-      description: 'Designed scalable solutions like HRMS integration and IVR confirmations, combining tech and behavioral incentives to raise OTA from 85% to 95%.',
-      outcome: 'Increasing the On Time Arrival (OTA) for a customer',
+      description: 'Suggested HRMS integration, automated confirmations, and incentive-based systems to enhance punctuality and reliability.',
+      outcome: 'Increase on-time arrivals for employee commutes.',
       outcomeSuffix: '',
       tags: ['Eisenhower Matrix', 'HRMS Integration', 'IVR'],
       image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&h=400&fit=crop',
@@ -37,7 +37,7 @@ const Projects = () => {
     },
     {
       name: 'CricBuzz Enhancement',
-      description: 'Conceptualized & prioritized 5 retention features using RICE framework',
+      description: 'Suggested new ideas and features to improve match experience and user engagement.',
       outcome: 'Engagement Boost',
       outcomeSuffix: ' via retention features',
       tags: ['RICE Framework', 'User Engagement', 'Product Strategy'],
@@ -46,7 +46,7 @@ const Projects = () => {
     },
     {
       name: 'SplitWise Features',
-      description: 'Developed 4 features to improve engagement & retention with prioritization via RICE',
+      description: 'Making expense splitting simpler and more fun.',
       outcome: 'Enhanced UX',
       outcomeSuffix: ' & user retention',
       tags: ['Feature Prioritization', 'UX Design', 'Success Metrics'],
@@ -78,19 +78,19 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop'
     },
     {
-      name: 'BeyondIRR APM Case Study',
+      name: 'BeyondIRR (APM Assignment)',
       description: 'Designed a feature for Relationship Managers to handle broker changes easily within the platform, improving speed and transparency.',
-      outcome: 'Strategic Thinking',
-      outcomeSuffix: ' & problem-solving',
+      outcome: 'Improve efficiency in handling broker change requests.',
+      outcomeSuffix: '',
       tags: ['Product Strategy', 'Case Study', 'APM', 'Perplexity Labs'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/BeyondIRR_APM_Assignment_AryamanKohli.pdf'
     },
     {
       name: 'Blinkit New User Onboarding',
-      description: 'Product deck for improving new user onboarding experience and reducing drop-off rates',
-      outcome: 'Improved Onboarding',
-      outcomeSuffix: ' & user retention',
+      description: 'Analyzed the Blinkit app journey and suggested UX improvements to simplify the first-order process and boost conversions.',
+      outcome: 'Enhance the onboarding experience for new users.',
+      outcomeSuffix: '',
       tags: ['UX Design', 'User Onboarding', 'Product Strategy'],
       image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Blinkit New User Onboarding product deck.pdf'
@@ -106,8 +106,8 @@ const Projects = () => {
     },
     {
       name: 'CheQ Product Challenge',
-      description: 'Delivered a structured critique and redesign proposal that improved feature visibility, incentive loops, and cross-sell opportunities aligned with CheQ\'s vision.',
-      outcome: 'Increasing Pay Together feature adoption',
+      description: 'Suggested UI, reward, and education changes that made the feature easier to find and more rewarding to use.',
+      outcome: 'To increase use of the "Pay Together" feature on CheQ.',
       outcomeSuffix: '',
       tags: ['Product Development', 'FinTech', 'Phased Launch'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
