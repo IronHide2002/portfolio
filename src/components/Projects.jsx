@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { FaExternalLinkAlt, FaFileAlt } from 'react-icons/fa'
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -33,7 +32,8 @@ const Projects = () => {
       outcome: '85% to 95%',
       outcomeSuffix: ' OTA increase',
       tags: ['Eisenhower Matrix', 'HRMS Integration', 'IVR'],
-      image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&h=400&fit=crop',
+      pdfPath: '/product_decks/MoveInSync product deck.pdf'
     },
     {
       name: 'CricBuzz Enhancement',
@@ -41,7 +41,8 @@ const Projects = () => {
       outcome: 'Engagement Boost',
       outcomeSuffix: ' via retention features',
       tags: ['RICE Framework', 'User Engagement', 'Product Strategy'],
-      image: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&h=400&fit=crop',
+      pdfPath: '/product_decks/CricBuzz Product deck.pdf'
     },
     {
       name: 'SplitWise Features',
@@ -49,7 +50,8 @@ const Projects = () => {
       outcome: 'Enhanced UX',
       outcomeSuffix: ' & user retention',
       tags: ['Feature Prioritization', 'UX Design', 'Success Metrics'],
-      image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&h=400&fit=crop',
+      pdfPath: '/product_decks/Splitwise Product deck.pdf'
     },
     {
       name: 'Hospitality BI Dashboard',
@@ -74,59 +76,67 @@ const Projects = () => {
       outcomeSuffix: ' via optimization',
       tags: ['SQL', 'Data Analysis', 'Pricing Strategy'],
       image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop'
-    }
-  ]
-
-  const productDecks = [
+    },
     {
       name: 'BeyondIRR APM Assignment',
-      description: 'Product management assignment showcasing strategic thinking and problem-solving',
+      description: 'Product management assignment showcasing strategic thinking and problem-solving capabilities',
+      outcome: 'Strategic Thinking',
+      outcomeSuffix: ' & problem-solving',
+      tags: ['Product Strategy', 'Case Study', 'APM'],
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/BeyondIRR_APM_Assignment_AryamanKohli.pdf'
     },
     {
       name: 'Blinkit New User Onboarding',
-      description: 'Product deck for improving new user onboarding experience',
+      description: 'Product deck for improving new user onboarding experience and reducing drop-off rates',
+      outcome: 'Improved Onboarding',
+      outcomeSuffix: ' & user retention',
+      tags: ['UX Design', 'User Onboarding', 'Product Strategy'],
+      image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Blinkit New User Onboarding product deck.pdf'
     },
     {
       name: 'Third Party Service Center',
-      description: 'Case study on third-party service center operations and optimization',
+      description: 'Case study on third-party service center operations and optimization strategies',
+      outcome: 'Operational Efficiency',
+      outcomeSuffix: ' improvements',
+      tags: ['Case Study', 'Operations', 'Process Optimization'],
+      image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Case_1_Third_Party_Service_Center_2020A2PS1055H.pdf'
     },
     {
       name: 'CoinSwitch Case Study',
-      description: 'Comprehensive case study on cryptocurrency exchange platform',
+      description: 'Comprehensive case study on cryptocurrency exchange platform and market dynamics',
+      outcome: 'Market Analysis',
+      outcomeSuffix: ' & insights',
+      tags: ['Case Study', 'FinTech', 'Market Research'],
+      image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Coinswitch_Casestudy.pdf'
     },
     {
-      name: 'CricBuzz Product Deck',
-      description: 'Product strategy and feature prioritization for sports media platform',
-      pdfPath: '/product_decks/CricBuzz Product deck.pdf'
-    },
-    {
       name: 'Just Do It App',
-      description: 'Product deck for task management and productivity application',
+      description: 'Product deck for task management and productivity application with focus on user engagement',
+      outcome: 'Productivity Boost',
+      outcomeSuffix: ' & task management',
+      tags: ['Product Design', 'Task Management', 'UX'],
+      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Just-do-it-App-Lovable.pdf'
     },
     {
-      name: 'MoveInSync Product Deck',
-      description: 'Strategic product initiative for corporate transportation management',
-      pdfPath: '/product_decks/MoveInSync product deck.pdf'
-    },
-    {
       name: 'CheQ Nextleap',
-      description: 'Product development phases for financial technology platform',
+      description: 'Product development phases for financial technology platform with phased rollout strategy',
+      outcome: 'Phased Rollout',
+      outcomeSuffix: ' strategy',
+      tags: ['Product Development', 'FinTech', 'Phased Launch'],
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Phase1_Phase2_CheQ_Nextleap_Ak.pdf'
-    },
-    {
-      name: 'Splitwise Product Deck',
-      description: 'Product strategy and feature development for expense sharing platform',
-      pdfPath: '/product_decks/Splitwise Product deck.pdf'
     }
   ]
 
-  const handleDeckClick = (pdfPath) => {
-    window.open(pdfPath, '_blank', 'noopener,noreferrer')
+  const handleProjectClick = (pdfPath) => {
+    if (pdfPath) {
+      window.open(pdfPath, '_blank', 'noopener,noreferrer')
+    }
   }
 
   return (
@@ -157,7 +167,10 @@ const Projects = () => {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`}
             >
-              <div className="bg-dark-card rounded-3xl overflow-hidden border border-dark-lighter hover:border-accent transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-accent/20 transform hover:-translate-y-2 h-full flex flex-col">
+              <div
+                onClick={() => handleProjectClick(project.pdfPath)}
+                className={`bg-dark-card rounded-3xl overflow-hidden border border-dark-lighter hover:border-accent transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-accent/20 transform hover:-translate-y-2 h-full flex flex-col ${project.pdfPath ? 'cursor-pointer' : ''}`}
+              >
                 {/* Project Image */}
                 <div className="h-48 bg-gradient-to-br from-dark-lighter to-dark-card overflow-hidden border-b-2 border-accent/20">
                   <img 
@@ -201,66 +214,6 @@ const Projects = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Product Decks Section */}
-        <div className="mt-20">
-          <div
-            className={`transition-all duration-1000 delay-700 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-            }`}
-          >
-            <h3 className="text-3xl md:text-4xl font-bold mb-6 text-text-primary tracking-tight">
-              <span className="text-accent glow-text">Product Decks</span>
-            </h3>
-            <div className="w-20 h-1 bg-accent mb-12 rounded-full"></div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {productDecks.map((deck, index) => (
-              <div
-                key={index}
-                className={`transition-all duration-1000 delay-${800 + index * 100} ${
-                  isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-                }`}
-              >
-                <div
-                  onClick={() => handleDeckClick(deck.pdfPath)}
-                  className="bg-dark-card rounded-3xl overflow-hidden border border-dark-lighter hover:border-accent transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-accent/20 transform hover:-translate-y-2 h-full flex flex-col cursor-pointer"
-                >
-                  {/* PDF Icon Header */}
-                  <div className="h-48 bg-gradient-to-br from-dark-lighter to-dark-card overflow-hidden border-b-2 border-accent/20 flex items-center justify-center">
-                    <div className="text-center">
-                      <FaFileAlt className="text-6xl md:text-7xl text-accent mx-auto mb-4 animate-pulse" />
-                      <p className="text-text-secondary text-sm font-medium">Click to view PDF</p>
-                    </div>
-                  </div>
-
-                  {/* Deck Content */}
-                  <div className="p-6 flex-grow flex flex-col">
-                    <div className="flex items-center gap-2 mb-3">
-                      <FaFileAlt className="text-accent text-xl" />
-                      <h3 className="text-2xl md:text-3xl font-bold text-text-primary" style={{fontFamily: "'Playfair Display', serif"}}>
-                        {deck.name}
-                      </h3>
-                    </div>
-                    
-                    <p className="text-text-secondary text-base mb-4 flex-grow">
-                      {deck.description}
-                    </p>
-
-                    {/* View PDF Button */}
-                    <div className="mt-auto pt-4 border-t border-dark-lighter">
-                      <div className="flex items-center gap-2 text-accent font-medium group">
-                        <span>View Deck</span>
-                        <FaExternalLinkAlt className="text-sm group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>

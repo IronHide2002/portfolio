@@ -1,11 +1,68 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Radial gradient for glow effect -->
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
       <stop offset="0%" style="stop-color:#00FF88;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#10B981;stop-opacity:0.8" />
+      <stop offset="60%" style="stop-color:#059669;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#111;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00FF88;stop-opacity:0.9" />
+      <stop offset="40%" style="stop-color:#10B981;stop-opacity:0.6" />
+      <stop offset="70%" style="stop-color:#059669;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#111;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="glow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00FF88;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#10B981;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#111;stop-opacity:0" />
+    </radialGradient>
+    <!-- Linear gradient for circles -->
+    <linearGradient id="circleGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FF88;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10B981;stop-opacity:0.9" />
     </linearGradient>
+    <linearGradient id="circleGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="circleGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:0.7" />
+    </linearGradient>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
+  
+  <!-- Dark background -->
   <rect width="100" height="100" rx="20" fill="#111"/>
-  <text x="50" y="70" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#grad)" text-anchor="middle" dominant-baseline="middle">AK</text>
+  
+  <!-- Outer glow layer -->
+  <circle cx="50" cy="50" r="48" fill="url(#glow1)" opacity="0.6"/>
+  
+  <!-- Concentric circles from outer to inner -->
+  <!-- Circle 1 - Largest -->
+  <circle cx="50" cy="50" r="45" fill="none" stroke="url(#circleGrad1)" stroke-width="2" opacity="0.9" filter="url(#glow)"/>
+  
+  <!-- Circle 2 -->
+  <circle cx="50" cy="50" r="38" fill="none" stroke="url(#circleGrad2)" stroke-width="1.8" opacity="0.85" filter="url(#glow)"/>
+  
+  <!-- Circle 3 -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="url(#circleGrad3)" stroke-width="1.6" opacity="0.8" filter="url(#glow)"/>
+  
+  <!-- Circle 4 -->
+  <circle cx="50" cy="50" r="22" fill="none" stroke="url(#circleGrad1)" stroke-width="1.4" opacity="0.75" filter="url(#glow)"/>
+  
+  <!-- Circle 5 - Innermost -->
+  <circle cx="50" cy="50" r="14" fill="url(#glow2)" opacity="0.7" filter="url(#glow)"/>
+  
+  <!-- Center highlight -->
+  <circle cx="50" cy="50" r="8" fill="#00FF88" opacity="0.9" filter="url(#glow)"/>
 </svg>
-
