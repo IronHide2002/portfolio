@@ -55,9 +55,9 @@ const Projects = () => {
     },
     {
       name: 'Hospitality BI Dashboard',
-      description: 'Power BI dashboard with KPIs like ADR, RevPAR, occupancy rate across 50K+ bookings.',
-      outcome: '8-10%',
-      outcomeSuffix: ' cancellation reduction',
+      description: 'Built a Power BI dashboard showing key metrics like bookings, revenue, and cancellations to help plan better pricing and reduce losses.',
+      outcome: 'track and improve hotel performance',
+      outcomeSuffix: ' through data',
       tags: ['Power BI', 'Data Visualization'],
       image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&h=400&fit=crop'
     },
@@ -66,14 +66,14 @@ const Projects = () => {
       description: 'Evaluated industry dynamics via Porter\'s Five Forces, BCG Matrix, and SPACE Analysis.',
       outcome: 'Strategic Insights',
       outcomeSuffix: ' for market positioning',
-      tags: ['Market Analysis', 'BCG Matrix', 'Competitive Benchmarking', 'Blindspot Analysis', 'Michael Porter 5 Forces'],
+      tags: ['Market Analysis', 'BCG Matrix'],
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop'
     },
     {
       name: 'Sports Retail Analysis',
       description: 'Analyzed 3,000+ SKUs using SQL to classify products and identify revenue opportunities.',
-      outcome: 'Revenue Lift',
-      outcomeSuffix: ' via optimization',
+      outcome: 'Discover insights',
+      outcomeSuffix: ' from sales data',
       tags: ['SQL', 'Data Analysis'],
       image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop'
     },
