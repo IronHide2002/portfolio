@@ -81,7 +81,7 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-accent mb-8 rounded-full mx-auto"></div>
           <p className="text-lg md:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
-            Open to Product Management, Product Analyst, and Business Analyst roles excited to build meaningful products that make an impact.
+            Always happy to connect, learn, and click whether it's ideas or photos :)
           </p>
         </div>
 

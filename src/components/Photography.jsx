@@ -59,9 +59,7 @@ const Photography = () => {
           <div className="w-24 h-1 bg-accent mb-8 rounded-full"></div>
 
           <p className="text-lg md:text-xl text-text-secondary mb-12 max-w-3xl leading-relaxed">
-            Led a <span className="text-accent font-bold">40-member team</span> as Head of Photography at BITS Hyderabad, delivering{' '}
-            <span className="text-accent font-bold">150+ events</span>. Scaled Instagram reach by{' '}
-            <span className="text-accent font-bold text-2xl glow-text">10x</span>, enhancing audience engagement and content visibility.
+            From macro wonders to wild landscapes and vibrant concerts — photography is my way of slowing down, creating, and reliving moments I love <span className="text-red-500 inline-block animate-pulse">❤️</span>
           </p>
         </div>
 

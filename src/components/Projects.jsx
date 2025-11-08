@@ -78,8 +78,8 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop'
     },
     {
-      name: 'BeyondIRR APM Assignment',
-      description: 'Product management assignment showcasing strategic thinking and problem-solving capabilities',
+      name: 'BeyondIRR APM Case Study',
+      description: 'Product management case study showcasing strategic thinking and problem-solving capabilities',
       outcome: 'Strategic Thinking',
       outcomeSuffix: ' & problem-solving',
       tags: ['Product Strategy', 'Case Study', 'APM'],
@@ -96,37 +96,19 @@ const Projects = () => {
       pdfPath: '/product_decks/Blinkit New User Onboarding product deck.pdf'
     },
     {
-      name: 'Third Party Service Center',
-      description: 'Case study on third-party service center operations and optimization strategies',
-      outcome: 'Operational Efficiency',
-      outcomeSuffix: ' improvements',
-      tags: ['Case Study', 'Operations', 'Process Optimization'],
-      image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=400&fit=crop',
-      pdfPath: '/product_decks/Case_1_Third_Party_Service_Center_2020A2PS1055H.pdf'
-    },
-    {
-      name: 'CoinSwitch Case Study',
-      description: 'Comprehensive case study on cryptocurrency exchange platform and market dynamics',
-      outcome: 'Market Analysis',
-      outcomeSuffix: ' & insights',
-      tags: ['Case Study', 'FinTech', 'Market Research'],
-      image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop',
-      pdfPath: '/product_decks/Coinswitch_Casestudy.pdf'
-    },
-    {
       name: 'Just Do It App',
       description: 'Product deck for task management and productivity application with focus on user engagement',
       outcome: 'Productivity Boost',
       outcomeSuffix: ' & task management',
-      tags: ['Product Design', 'Task Management', 'UX'],
+      tags: ['Product Design', 'Task Management', 'UX', 'Lovable'],
       image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Just-do-it-App-Lovable.pdf'
     },
     {
-      name: 'CheQ Nextleap',
+      name: 'CheQ Product Challenge',
       description: 'Product development phases for financial technology platform with phased rollout strategy',
-      outcome: 'Phased Rollout',
-      outcomeSuffix: ' strategy',
+      outcome: 'Increasing Pay Together feature adoption',
+      outcomeSuffix: '',
       tags: ['Product Development', 'FinTech', 'Phased Launch'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Phase1_Phase2_CheQ_Nextleap_Ak.pdf'
