@@ -59,7 +59,7 @@ const Photography = () => {
           <div className="w-24 h-1 bg-accent mb-8 rounded-full"></div>
 
           <p className="text-lg md:text-xl text-text-secondary mb-12 max-w-3xl leading-relaxed">
-            From macro wonders to wild landscapes and vibrant concerts — photography is my way of slowing down, creating, and reliving moments I love <span className="text-red-500 inline-block animate-pulse">❤️</span>
+            From macro wonders to wild landscapes and vibrant concerts photography is my way of slowing down, creating, and reliving moments I love 😃
           </p>
         </div>
 
