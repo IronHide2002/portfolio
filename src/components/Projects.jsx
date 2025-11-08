@@ -56,7 +56,7 @@ const Projects = () => {
     {
       name: 'Hospitality BI Dashboard',
       description: 'Built a Power BI dashboard showing key metrics like bookings, revenue, and cancellations to help plan better pricing and reduce losses.',
-      outcome: 'track and improve hotel performance',
+      outcome: 'Track and improve hotel performance',
       outcomeSuffix: ' through data',
       tags: ['Power BI', 'Data Visualization'],
       image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&h=400&fit=crop'
