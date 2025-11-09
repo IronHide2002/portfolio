@@ -14,6 +14,10 @@
     font-family: 'Playfair Display', serif;
   }
 
+  .font-libertinus-keyboard {
+    font-family: 'Libertinus Keyboard', monospace;
+  }
+
 }
 
 @layer utilities {

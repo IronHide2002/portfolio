@@ -33,23 +33,23 @@ const Experience = () => {
       date: 'July 2023 – Dec 2023',
       achievements: [
         {
-          text: 'Led process improvement for month-end reconciliation, identifying pain points via stakeholder interviews, root-cause analysis, and data validation',
-          highlight: null
+          text: 'Led month-end reconciliation optimization through stakeholder analysis and root-cause investigation, reducing close time by ',
+          highlight: '2+ hours',
+          suffix: ''
         },
         {
-          text: 'Partnered cross-functionally to implement a data stewardship fix resolving approx. ',
+          text: 'Partnered cross-functionally to resolve approx. ',
           highlight: '$18B',
-          suffix: ' in feed discrepancies, boosting accuracy and reducing reconciliation time'
+          suffix: ' in feed discrepancies via data stewardship solutions, boosting accuracy'
         },
         {
-          text: 'Enhanced internal Python automation scripts to integrate four additional data feeds, cutting process runtime by approx. ',
+          text: 'Enhanced Python automation to integrate four data feeds, cutting runtime by ',
           highlight: '40 minutes',
           suffix: ' and enabling faster reporting'
         },
         {
-          text: 'Engineered SQL-based validation queries to eliminate data anomalies, reducing month-end close time by ',
-          highlight: '2+ hours',
-          suffix: ''
+          text: 'Engineered SQL validation queries to eliminate data anomalies and automated stakeholder reporting workflows',
+          highlight: null
         },
       ]
     },
@@ -59,13 +59,13 @@ const Experience = () => {
       date: 'May 2022 – July 2022',
       achievements: [
         {
-          text: 'Investigated production inefficiencies in concrete testing using Excel, pivot tables, and control charts',
+          text: 'Analyzed concrete testing inefficiencies using Excel, pivot tables, and statistical control charts to identify production bottlenecks',
           highlight: null
         },
         {
           text: 'Synthesized insights from ',
           highlight: '200+',
-          suffix: ' data points and recommended process changes to stakeholders'
+          suffix: ' data points and delivered process optimization recommendations to stakeholders'
         },
       ]
     }

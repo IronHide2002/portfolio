@@ -7,7 +7,7 @@ const Hero = () => {
   }
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden pt-20 md:pt-24">
       {/* Animated background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-dark-bg via-dark-card to-dark-bg opacity-50"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(16,185,129,0.1),transparent_50%)]"></div>
@@ -34,7 +34,7 @@ const Hero = () => {
 
         {/* Tagline */}
         <p className="text-lg md:text-xl lg:text-2xl text-text-secondary mb-12 font-medium leading-relaxed">
-          Aspiring Product Manager <span className="text-accent">|</span> BITS Pilani '24
+          Product Enthusiast <span className="text-accent">|</span> Photographer <span className="text-accent">|</span> BITS Pilani
         </p>
 
         {/* CTA Buttons */}

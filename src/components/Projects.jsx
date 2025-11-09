@@ -27,12 +27,12 @@ const Projects = () => {
 
   const projects = [
     {
-      name: 'CheQ Product Challenge',
+      name: 'CheQ x NextLeap Product Challenge',
       description: 'Suggested UI, reward, and education changes that made the feature easier to find and more rewarding to use.',
       outcome: 'To increase use of the "Pay Together" feature on CheQ.',
       outcomeSuffix: '',
       tags: ['Product Critique', 'Feature Prioritization', 'User Personas', 'Wireframe'],
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop',
       pdfPath: '/product_decks/Phase1_Phase2_CheQ_Nextleap_Ak.pdf'
     },
     {

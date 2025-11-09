@@ -42,7 +42,7 @@ const Navbar = () => {
           {/* Logo */}
           <a
             href="#"
-            className="text-2xl font-bold text-accent hover:text-accent-light transition-colors"
+            className="text-2xl font-bold text-accent hover:text-accent-light transition-colors font-libertinus-keyboard"
             onClick={(e) => scrollToSection(e, '#hero')}
           >
             AK

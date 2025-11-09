@@ -29,12 +29,12 @@ const Photography = () => {
 
   // Real photography images
   const photos = [
-    { id: 1, src: '/photos/_DSC0797.jpg', alt: 'Concert Photography' },
-    { id: 2, src: '/photos/1000004653.jpg', alt: 'Event Photography' },
-    { id: 3, src: '/photos/750_5037.jpg', alt: 'Live Performance' },
-    { id: 4, src: '/photos/AmitTrivedi Piano.jpg', alt: 'Amit Trivedi Piano Performance' },
-    { id: 5, src: '/photos/WhatsApp Image 2025-06-24 at 14.30.22_cd4df793.jpg', alt: 'Event Coverage' },
-    { id: 6, src: '/photos/WhatsApp Image 2025-06-24 at 14.34.14_23c64c28.jpg', alt: 'Event Photography' },
+    { id: 1, src: '/photos/cj2ryueowruvaxi2kgnd.webp', alt: 'Concert Photography' },
+    { id: 2, src: '/photos/mr4s1lkeelem35narmyu.webp', alt: 'Event Photography' },
+    { id: 3, src: '/photos/q2q2m0gug0vybfbo7ut5.webp', alt: 'Live Performance' },
+    { id: 4, src: '/photos/sshkiabtykdwgogpl2xf.webp', alt: 'Amit Trivedi Piano Performance' },
+    { id: 5, src: '/photos/yui6lk8szyxw3nd6wc77.webp', alt: 'Event Coverage' },
+    { id: 6, src: '/photos/zul6dvzqoimcojnw2fsa.webp', alt: 'Event Photography' },
   ]
 
   return (
