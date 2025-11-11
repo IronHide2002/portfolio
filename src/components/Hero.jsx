@@ -9,7 +9,9 @@ const Hero = () => {
   const handleResumeDownload = async (e) => {
     e.preventDefault()
     try {
-      const response = await fetch('/AryamanKohli_Resume.pdf')
+      // Add cache-busting parameter to ensure latest file is fetched
+      const timestamp = new Date().getTime()
+      const response = await fetch(`/AryamanKohli_Resume.pdf?v=${timestamp}`)
       const blob = await response.blob()
       const url = window.URL.createObjectURL(blob)
       const link = document.createElement('a')
@@ -21,8 +23,9 @@ const Hero = () => {
       window.URL.revokeObjectURL(url)
     } catch (error) {
       console.error('Error downloading resume:', error)
-      // Fallback to direct download
-      window.open('/AryamanKohli_Resume.pdf', '_blank')
+      // Fallback to direct download with cache-busting
+      const timestamp = new Date().getTime()
+      window.open(`/AryamanKohli_Resume.pdf?v=${timestamp}`, '_blank')
     }
   }
 
@@ -81,6 +84,7 @@ const Hero = () => {
             href="/AryamanKohli_Resume.pdf"
             onClick={handleResumeDownload}
             className="group flex items-center gap-2 px-8 py-4 bg-dark-card hover:bg-dark-lighter text-text-primary font-bold rounded-3xl border-2 border-accent transition-all duration-300 transform hover:scale-105 hover:shadow-[0_0_30px_rgba(0,255,136,0.3)] min-w-[200px] justify-center"
+            download="AryamanKohli_Resume.pdf"
           >
             <FaFileDownload className="text-xl group-hover:text-accent" />
             Resume
