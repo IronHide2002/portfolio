@@ -9,7 +9,7 @@ const Hero = () => {
   const handleResumeDownload = async (e) => {
     e.preventDefault()
     try {
-      const response = await fetch('/resume.pdf')
+      const response = await fetch('/AryamanKohli_Resume.pdf')
       const blob = await response.blob()
       const url = window.URL.createObjectURL(blob)
       const link = document.createElement('a')
@@ -22,7 +22,7 @@ const Hero = () => {
     } catch (error) {
       console.error('Error downloading resume:', error)
       // Fallback to direct download
-      window.open('/resume.pdf', '_blank')
+      window.open('/AryamanKohli_Resume.pdf', '_blank')
     }
   }
 
@@ -78,7 +78,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/AryamanKohli_Resume.pdf"
             onClick={handleResumeDownload}
             className="group flex items-center gap-2 px-8 py-4 bg-dark-card hover:bg-dark-lighter text-text-primary font-bold rounded-3xl border-2 border-accent transition-all duration-300 transform hover:scale-105 hover:shadow-[0_0_30px_rgba(0,255,136,0.3)] min-w-[200px] justify-center"
           >
