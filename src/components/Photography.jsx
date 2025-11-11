@@ -41,7 +41,7 @@ const Photography = () => {
     <section
       id="photography"
       ref={sectionRef}
-      className="py-20 md:py-32 px-6 bg-dark-bg"
+      className="py-20 md:py-32 px-4 md:px-6 lg:px-8 bg-gradient-to-b from-dark-bg to-dark-card overflow-x-hidden"
     >
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
@@ -50,7 +50,7 @@ const Photography = () => {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-text-primary tracking-tight flex items-center gap-4">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-text-primary tracking-normal flex items-center gap-4">
             <FaCamera className="text-accent" />
             <span>
               Photo<span className="text-accent glow-text">graphy</span>

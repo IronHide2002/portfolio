@@ -7,12 +7,11 @@ const Hero = () => {
   }
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden pt-20 md:pt-24">
-      {/* Animated background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-dark-bg via-dark-card to-dark-bg opacity-50"></div>
+    <section id="hero" className="relative min-h-screen flex items-center justify-center px-4 md:px-6 lg:px-8 overflow-hidden pt-20 md:pt-24 bg-gradient-to-b from-dark-bg via-dark-card to-dark-bg" style={{ zIndex: 1, position: 'relative' }}>
+      {/* Animated background gradient overlay */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(16,185,129,0.1),transparent_50%)]"></div>
 
-      <div className="relative z-10 max-w-5xl mx-auto text-center">
+      <div className="relative max-w-5xl mx-auto text-center">
         {/* Profile Image */}
         <div className="mb-8 inline-block animate-float">
           <div className="w-48 h-48 md:w-64 md:h-64 mx-auto rounded-full bg-gradient-to-br from-accent to-accent-light p-1 shadow-2xl shadow-accent/50">
@@ -28,8 +27,9 @@ const Hero = () => {
         </div>
 
         {/* Name */}
-        <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 text-text-primary tracking-tight">
-          Aryaman <span className="text-accent glow-text">Kohli</span>
+        <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 text-text-primary flex flex-wrap justify-center items-baseline gap-3 md:gap-4 lg:gap-6">
+          <span className="tracking-wide">Aryaman</span>
+          <span className="text-accent glow-text">Kohli</span>
         </h1>
 
         {/* Tagline */}

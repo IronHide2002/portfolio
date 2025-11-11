@@ -29,7 +29,7 @@ const About = () => {
     <section
       id="about"
       ref={sectionRef}
-      className="py-20 md:py-32 px-6 bg-dark-bg"
+      className="py-20 md:py-32 px-4 md:px-6 lg:px-8 bg-gradient-to-b from-dark-bg to-dark-card overflow-x-hidden"
     >
       <div className="max-w-6xl mx-auto">
         <div
@@ -38,7 +38,7 @@ const About = () => {
           }`}
         >
           {/* Section Header */}
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-text-primary tracking-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-text-primary tracking-normal">
             About <span className="text-accent glow-text">Me</span>
           </h2>
           <div className="w-24 h-1 bg-accent mb-12 rounded-full"></div>

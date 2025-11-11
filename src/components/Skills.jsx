@@ -55,7 +55,7 @@ const Skills = () => {
     <section
       id="skills"
       ref={sectionRef}
-      className="py-20 md:py-32 px-6 bg-gradient-to-b from-dark-bg to-dark-card"
+      className="py-20 md:py-32 px-4 md:px-6 lg:px-8 bg-gradient-to-b from-dark-card to-dark-bg overflow-x-hidden"
     >
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
@@ -64,7 +64,7 @@ const Skills = () => {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-text-primary tracking-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-text-primary tracking-normal">
             Skills & <span className="text-accent glow-text">Expertise</span>
           </h2>
           <div className="w-24 h-1 bg-accent mb-16 rounded-full"></div>

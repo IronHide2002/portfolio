@@ -8,10 +8,20 @@
     font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
+  }
+
+  #hero {
+    z-index: 1 !important;
+    position: relative;
+  }
+
+  #hero * {
+    z-index: inherit;
   }
 
   .font-libertinus-keyboard {
@@ -60,9 +70,16 @@
   }
 }
 
+/* Ensure navbar is always on top */
+nav {
+  z-index: 10000 !important;
+  position: fixed !important;
+}
+
 /* Smooth scroll for the whole page */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* Custom scrollbar */

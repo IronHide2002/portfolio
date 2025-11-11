@@ -116,7 +116,7 @@ const Projects = () => {
     <section
       id="projects"
       ref={sectionRef}
-      className="py-20 md:py-32 px-6 bg-dark-bg"
+      className="py-20 md:py-32 px-4 md:px-6 lg:px-8 bg-gradient-to-b from-dark-bg to-dark-card overflow-x-hidden"
     >
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
@@ -125,7 +125,7 @@ const Projects = () => {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-text-primary tracking-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-text-primary tracking-normal">
             <span className="text-accent glow-text">Portfolio</span>
           </h2>
           <div className="w-24 h-1 bg-accent mb-16 rounded-full"></div>

@@ -10,7 +10,7 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className="min-h-screen bg-dark-bg">
+    <div className="min-h-screen bg-dark-bg overflow-x-hidden" style={{ position: 'relative' }}>
       <Navbar />
       <Hero />
       <About />

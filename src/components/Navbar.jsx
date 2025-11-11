@@ -33,11 +33,12 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 transition-all duration-300 ${
         scrolled ? 'bg-dark-bg/95 backdrop-blur-md shadow-2xl border-b border-accent/10' : 'bg-transparent'
       }`}
+      style={{ zIndex: 10000, position: 'fixed' }}
     >
-      <div className="max-w-7xl mx-auto px-6 py-4">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <a
@@ -75,7 +76,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden mt-4 py-4 border-t border-dark-lighter animate-fadeIn">
+          <div className="md:hidden mt-4 py-4 border-t border-dark-lighter animate-fadeIn bg-dark-bg/95 backdrop-blur-md shadow-2xl -mx-4 md:-mx-6 lg:-mx-8 px-4 md:px-6 lg:px-8 relative" style={{ zIndex: 10000 }}>
             {navItems.map((item) => (
               <a
                 key={item.name}
