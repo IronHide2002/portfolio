@@ -6,6 +6,26 @@ const Hero = () => {
     document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' })
   }
 
+  const handleResumeDownload = async (e) => {
+    e.preventDefault()
+    try {
+      const response = await fetch('/resume.pdf')
+      const blob = await response.blob()
+      const url = window.URL.createObjectURL(blob)
+      const link = document.createElement('a')
+      link.href = url
+      link.download = 'AryamanKohli_Resume.pdf'
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      window.URL.revokeObjectURL(url)
+    } catch (error) {
+      console.error('Error downloading resume:', error)
+      // Fallback to direct download
+      window.open('/resume.pdf', '_blank')
+    }
+  }
+
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center px-4 md:px-6 lg:px-8 overflow-hidden pt-20 md:pt-24 bg-gradient-to-b from-dark-bg via-dark-card to-dark-bg" style={{ zIndex: 1, position: 'relative' }}>
       {/* Animated background gradient overlay */}
@@ -59,7 +79,7 @@ const Hero = () => {
 
           <a
             href="/resume.pdf"
-            download="AryamanKohli_Resume.pdf"
+            onClick={handleResumeDownload}
             className="group flex items-center gap-2 px-8 py-4 bg-dark-card hover:bg-dark-lighter text-text-primary font-bold rounded-3xl border-2 border-accent transition-all duration-300 transform hover:scale-105 hover:shadow-[0_0_30px_rgba(0,255,136,0.3)] min-w-[200px] justify-center"
           >
             <FaFileDownload className="text-xl group-hover:text-accent" />
